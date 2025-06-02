@@ -1,0 +1,114 @@
+.header {
+  width: 100%;
+  height: 64px;
+  background: rgba(20, 106, 245, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #fff;
+}
+
+.header-logo img {
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+/* ハンバーガーボタン */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 200;
+  margin-left: 16px;
+}
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* サイドメニュー */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -220px;
+  width: 200px;
+  height: 100vh;
+  background: rgba(20, 106, 245, 0.98);
+  box-shadow: -2px 0 8px rgba(0,0,0,0.08);
+  transition: right 0.3s;
+  z-index: 150;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+.side-menu.open {
+  right: 0;
+}
+.side-menu ul {
+  list-style: none;
+  padding: 0 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.side-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+/* ナビゲーションメニュー */
+.header-nav ul {
+  display: flex;
+  flex-direction: row;   /* 横並びにする */
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.header-nav li {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: opacity 0.2s;
+}
+
+.header-nav a:hover {
+  opacity: 0.7;
+}
+
+/* モバイル時の表示切替 */
+@media (max-width: 700px) {
+  .header-nav {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+}

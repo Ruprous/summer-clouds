@@ -1,0 +1,76 @@
+.about-section {
+  background: transparent; /* ← 背景を透明に */
+  color: #fff;             /* 文字色を白に */
+  padding: 80px 16px 64px 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 0;        /* 角丸をなくす */
+  box-shadow: none;        /* 影をなくす */
+  margin-top: 80px;
+  scroll-margin-top: 80px; /* ← 追加: ヘッダー分の余白を確保 */
+}
+
+.about-box {
+  border: 1px solid #fff;      /* ヘッダー下部と同じ太さ・色 */
+  border-radius: 16px;
+  background: rgba(0,0,0,0.10); /* ほんのり透過で浮かせる */
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;   /* 1.2em → 0.5em に変更して間隔を詰める */
+  letter-spacing: 0.08em;
+  color: #fff;             /* タイトルも白に */
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin-bottom: 1.2em;
+  text-align: left;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;   /* ← flex-startからcenterに変更 */
+  gap: 28px;             /* 少し広げてもOK */
+}
+
+.about-profile {
+  width: 144px;           /* 96px × 1.5 = 144px */
+  height: 144px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  flex-shrink: 0;
+  background: #eee;
+}
+
+.pnz-link {
+  color: #ff7a7a;
+  text-decoration: underline;
+  transition: color 0.2s;
+  white-space: nowrap; /* ← 追加：改行させない */
+}
+.pnz-link:hover {
+  color: #ff3b3b;
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .about-profile {
+    margin-bottom: 8px;
+  }
+  .about-box {
+    padding: 20px 8px;
+  }
+}

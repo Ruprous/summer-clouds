@@ -1,0 +1,145 @@
+.works-section {
+  /* max-width: 700px; ← この行を削除またはコメントアウト */
+  width: 100%;
+  margin: 80px auto 0 auto;
+  padding: 0 16px;
+}
+
+.works-box {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.works-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-align: center;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  padding: 0;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  /* 枠や背景などは既存のままでOK */
+}
+
+.work-title {
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.work-thumb-wrap {
+  width: 380px;
+  height: 285px; /* 4:3比率 */
+  background: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px auto;
+  border: 1px solid #fff3;
+}
+
+.work-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 大きい画像はクロップ、小さい画像は拡大 */
+  background: #222;
+  display: block;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid #fff;
+  border-radius: 16px;
+  background: rgba(0,0,0,0.10);
+  padding: 28px 20px;
+  width: 380px;         /* サムネイル幅に合わせる */
+  box-sizing: border-box;
+  box-shadow: 0 4px 24px rgba(20,106,245,0.08);
+}
+
+.work-info > * {
+  max-width: 380px;     /* サムネイル幅に合わせる */
+  word-break: break-word;
+  text-align: center;
+}
+
+.work-info > *:not(:last-child) {
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.work-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1em;
+  color: #fff;
+}
+.work-info p {
+  margin: 0;
+  font-size: 0.98em;
+  color: #fff;
+}
+.work-type {
+  color: #7ac7ff;
+  font-size: 0.98em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.work-info a {
+  color: #7ac7ff;
+  text-decoration: underline;
+  font-size: 0.98em;
+}
+
+.work-description {
+  color: #fff;
+  font-size: 0.98em;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.work-detail-link {
+  color: #7ac7ff;
+  text-decoration: underline;
+  font-size: 0.98em;
+  text-align: center;
+}
+
+/* 画面幅に応じて列数を調整 */
+@media (max-width: 1600px) {
+  .work-info { width: 340px; }
+}
+@media (max-width: 1300px) {
+  .work-info { width: 300px; }
+}
+@media (max-width: 1100px) {
+  .works-list { gap: 24px; }
+  .work-info { width: 45vw; min-width: 220px; max-width: 340px; }
+}
+@media (max-width: 800px) {
+  .works-list { flex-direction: column; gap: 20px; }
+  .work-info { width: 95vw; min-width: 0; max-width: 100%; }
+}

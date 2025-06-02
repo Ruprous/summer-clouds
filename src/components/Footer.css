@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background: transparent;
+  font-size: 1rem;
+  padding: 32px 0 16px 0;
+  letter-spacing: 0.08em;
+  border-top: 1px solid #fff; /* フッター上部に白い線を追加 */
+}
