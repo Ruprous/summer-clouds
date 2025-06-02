@@ -10,16 +10,16 @@ const works = [
     thumbnail: "",
     type: "Adobe_Plugin",
     date: "2025-06",
-    description: "A lightweight Adobe CEP extension for Premiere Pro. It monitors a specified folder and automatically imports stable files like images, videos, audio, PSDs, and AI files into the project.",
+    description: "Premiere Pro用の軽量なAdobe CEPエクステンション。指定したフォルダを監視し、ファイルを自動的にプロジェクトにインポート。",
     url: "https://github.com/Ruprous/RP-FolderWatcher"
   },
   {
-    title: "Blender アドオン",
-    thumbnail: "",
+    title: "Circular-Arrange",
+    thumbnail: "https://raw.githubusercontent.com/Ruprous/Circular-Arrange/refs/heads/main/images/sampleimage01.png",
     type: "Blender_Addon",
     date: "2025-05",
-    description: "Blender用の便利なアドオン。",
-    url: "https://github.com/xxxx"
+    description: "選択したオブジェクトを指定した数と半径の円の中に配置するための Blender アドオン。",
+    url: "https://github.com/Ruprous/Circular-Arrange"
   },
   {
     title: "Blender アドオン",

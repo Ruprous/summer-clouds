@@ -46,22 +46,24 @@
 }
 
 .work-thumb-wrap {
-  width: 380px;
-  height: 285px; /* 4:3比率 */
-  background: #222;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  max-width: 380px;
+  max-height: 285px;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 14px auto;
-  border: 1px solid #fff3;
 }
 
 .work-thumb {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 大きい画像はクロップ、小さい画像は拡大 */
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
   background: #222;
   display: block;
 }
@@ -74,7 +76,8 @@
   border-radius: 16px;
   background: rgba(0,0,0,0.10);
   padding: 28px 20px;
-  width: 380px;         /* サムネイル幅に合わせる */
+  width: 100%;
+  max-width: 380px;
   box-sizing: border-box;
   box-shadow: 0 4px 24px rgba(20,106,245,0.08);
 }
