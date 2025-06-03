@@ -11,7 +11,19 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-logo">
-        <img src={logo} alt="Logo" />
+        <a
+          href="https://x.com/Ruprous"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="logo-link"
+        >
+          <img src={logo} alt="Logo" />
+          <span className="logo-circle">
+            <svg>
+              <circle cx="27" cy="27" r="25" />
+            </svg>
+          </span>
+        </a>
       </div>
       <nav className="header-nav">
         <ul>

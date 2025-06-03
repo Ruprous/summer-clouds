@@ -8,7 +8,7 @@ const works = [
   {
     title: "RP-FolderWatcher",
     thumbnail: "",
-    type: "Adobe_Plugin",
+    type: "AdobePlugin",
     date: "2025-06",
     description: "Premiere Pro用の軽量なAdobe CEPエクステンション。指定したフォルダを監視し、ファイルを自動的にプロジェクトにインポート。",
     url: "https://github.com/Ruprous/RP-FolderWatcher"
@@ -16,19 +16,20 @@ const works = [
   {
     title: "Circular-Arrange",
     thumbnail: "https://raw.githubusercontent.com/Ruprous/Circular-Arrange/refs/heads/main/images/sampleimage01.png",
-    type: "Blender_Addon",
+    type: "BlenderAddon",
     date: "2025-05",
     description: "選択したオブジェクトを指定した数と半径の円の中に配置するための Blender アドオン。",
     url: "https://github.com/Ruprous/Circular-Arrange"
   },
   {
-    title: "Blender アドオン",
-    thumbnail: "",
-    type: "Blender_Addon",
-    date: "2025-05",
-    description: "Blender用の便利なアドオン。",
-    url: "https://github.com/xxxx"
-  }
+  "title": "PNZ CUSTOM V6. CAME BACK",
+  "thumbnail": "https://imgx.foriio.com/images/store/29934e0ac6c5f327e9a1febacdafe5e9.png?auto=compress&w=2184",
+  "type": "GraphicDesign",
+  "date": "",
+  "description": "PNZ主催・GauG協賛の「PNZ CUSTOM V6. CAME BACK 」\nメインビジュアル画像/メンバーリスト画像",
+  "url": "https://www.foriio.com/works/556908"
+}
+
 ];
 
 const WorksSection = () => {
@@ -57,7 +58,7 @@ const WorksSection = () => {
                     className="work-thumb"
                   />
                 </div>
-                <div className="work-type">ジャンル：{work.type}</div>
+                <div className="work-type">{work.type}</div>
                 <p className="work-description">{work.description}</p>
                 <a href={work.url} target="_blank" rel="noopener noreferrer" className="work-detail-link">
                   詳細

@@ -14,9 +14,49 @@
   border-bottom: 1px solid #fff;
 }
 
-.header-logo img {
+.header-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;         /* ヘッダーと同じ高さに */
+}
+
+.logo-link {
+  display: flex;        /* imgを中央揃えに */
+  align-items: center;  /* 垂直中央揃え */
+  height: 100%;
+}
+
+.logo-link img {
   height: 40px;
   filter: brightness(0) invert(1);
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s cubic-bezier(.4,1.4,.6,1), left 0.3s cubic-bezier(.4,1.4,.6,1);
+  transform: translateX(-50%);
+}
+
+.logo-link:hover::after {
+  width: 100%;
+  left: 50%;
+}
+
+/* .logo-circleは不要なら削除してOK */
+.logo-circle {
+  display: none;
 }
 
 /* ハンバーガーボタン */
@@ -97,10 +137,29 @@
   font-weight: bold;
   letter-spacing: 0.1em;
   transition: opacity 0.2s;
+  position: relative; /* 下線用 */
+  padding-bottom: 4px;
+}
+
+.header-nav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s cubic-bezier(.4,1.4,.6,1), left 0.3s cubic-bezier(.4,1.4,.6,1);
+  transform: translateX(-50%);
 }
 
 .header-nav a:hover {
   opacity: 0.7;
+}
+
+.header-nav a:hover::after {
+  width: 100%;
+  left: 50%;
 }
 
 /* モバイル時の表示切替 */

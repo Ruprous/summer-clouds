@@ -1,9 +1,10 @@
 .works-section {
   /* max-width: 700px; ← この行を削除またはコメントアウト */
   width: 100%;
-  margin: 80px auto 0 auto;
-  padding: 0 16px;
-  scroll-margin-top: 80px; /* ヘッダーの高さ分だけ余白を確保（必要に応じて調整） */
+  /* margin: 80px auto 0 auto; */
+  margin: 0 auto 0 auto;
+  padding: 40px 16px 0 16px; /* 上に余白が欲しい場合はpadding-topで調整 */
+  scroll-margin-top: 80px; /* ヘッダーの高さ分だけ余白を確保 */
 }
 
 .works-box {

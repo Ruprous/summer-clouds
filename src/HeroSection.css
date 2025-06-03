@@ -5,7 +5,8 @@ html {
 .hero-section {
   min-height: 100vh;
   /* height: 100vh; ← 削除 */
-  background: rgb(20, 106, 245);
+  background: transparent; /* ← 完全透明に */
+  /* または rgba(255,255,255,0.0) でもOK */
   display: flex;
   flex-direction: column;
   justify-content: center;
