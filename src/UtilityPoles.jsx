@@ -45,11 +45,12 @@ const UtilityPoles = () => {
         bottom: 0,
         width: "100vw",
         height: "auto",
-        zIndex: -1, // ←ここを-1に
+        zIndex: -1,
         transform: "translateY(100%)",
         transition: "transform 0s",
         pointerEvents: "none",
         userSelect: "none",
+        opacity: 0.9, // ここを追加（90%不透明）
       }}
     />
   );
