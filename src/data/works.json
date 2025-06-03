@@ -5,7 +5,8 @@
     "thumbnail": "",
     "type": "AdobePlugin",
     "date": "2025-06",
-    "description": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定したフォルダを監視し、ファイルを自動的にプロジェクトにインポート。",
+    "descriptionShort": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定フォルダを監視し自動インポート。",
+    "description": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定したフォルダを監視し、ファイルを自動的にプロジェクトにインポートします。手動でのインポート作業を省略でき、作業効率が大幅に向上します。",
     "url": "https://github.com/Ruprous/RP-FolderWatcher"
   },
   {
@@ -14,7 +15,8 @@
     "thumbnail": "https://raw.githubusercontent.com/Ruprous/Circular-Arrange/refs/heads/main/images/sampleimage01.png",
     "type": "BlenderAddon",
     "date": "2025-05",
-    "description": "選択したオブジェクトを指定した数と半径の円の中に配置するための Blender アドオン。",
+    "descriptionShort": "選択オブジェクトを円形に自動配置するBlenderアドオン。",
+    "description": "選択したオブジェクトを指定した数と半径の円の中に自動で配置するBlenderアドオンです。複雑な配置作業を簡単にし、効率的なモデリングをサポートします。",
     "url": "https://github.com/Ruprous/Circular-Arrange"
   },
   {
@@ -23,7 +25,8 @@
     "thumbnail": "https://imgx.foriio.com/images/store/29934e0ac6c5f327e9a1febacdafe5e9.png?auto=compress&w=2184",
     "type": "GraphicDesign",
     "date": "",
-    "description": "PNZ主催・GauG協賛の「PNZ CUSTOM V6. CAME BACK 」\nメインビジュアル画像/メンバーリスト画像",
+    "descriptionShort": "PNZ主催イベントのメインビジュアル・メンバーリスト画像を制作。",
+    "description": "PNZ主催・GauG協賛の「PNZ CUSTOM V6. CAME BACK 」のメインビジュアル画像およびメンバーリスト画像を制作しました。イベントの世界観を表現するために色彩やレイアウトにこだわりました。",
     "url": "https://www.foriio.com/works/556908"
   },
   {
@@ -32,6 +35,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "2024-01",
+    "descriptionShort": "ダミー作品1の短い説明。",
     "description": "これはダミー作品1の説明です。",
     "url": "https://example.com/dummy1"
   },
@@ -41,6 +45,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "2024-02",
+    "descriptionShort": "ダミー作品2の短い説明。",
     "description": "これはダミー作品2の説明です。説明文が少し長めになっています。サンプルとして、複数行にまたがる説明文をここに記載しています。UIの見た目やレイアウトのテストにも使えます。",
     "url": "https://example.com/dummy2"
   },
@@ -50,6 +55,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "2024-03",
+    "descriptionShort": "ダミー作品3の短い説明。",
     "description": "短い説明。",
     "url": "https://example.com/dummy3"
   },
@@ -59,6 +65,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "2024-04",
+    "descriptionShort": "ダミー作品4の短い説明。",
     "description": "これはダミー作品4の説明です。やや長めの説明文で、テスト用にいくつかの文章を追加しています。これにより、カードの高さやレイアウトの違いを確認できます。",
     "url": "https://example.com/dummy4"
   },
@@ -68,6 +75,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "2024-05",
+    "descriptionShort": "ダミー作品5の短い説明。",
     "description": "ダミー作品5。とても短い。",
     "url": "https://example.com/dummy5"
   },
@@ -77,6 +85,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "2024-06",
+    "descriptionShort": "ダミー作品6の短い説明。",
     "description": "これはダミー作品6の説明です。さらに別のサンプルとして、ここに説明文を追加しています。",
     "url": "https://example.com/dummy6"
   },
@@ -86,6 +95,7 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "",
+    "descriptionShort": "ダミー作品7の短い説明。",
     "description": "これはダミー作品7の説明です。日付データはありません。",
     "url": "https://example.com/dummy7"
   },
@@ -95,7 +105,17 @@
     "thumbnail": "",
     "type": "DummyType",
     "date": "",
+    "descriptionShort": "ダミー作品8の短い説明。",
     "description": "ダミー作品8の説明。こちらも日付なしのサンプルです。",
     "url": "https://example.com/dummy8"
+  },
+  {
+    "id": "popin2-mv",
+    "title": "ねぎりん・ちゃんあい・min / POP IN 2",
+    "type": "MusicVideo",
+    "description": "ねぎりん・ちゃんあい・minの3名によるカバー楽曲『POP IN 2』の\nミュージックビデオとYouTube用サムネイル画像を制作しました。",
+    "date": "2025-02",
+    "youtubeId": "IHWtiTSIPPI",
+    "thumbnail": ""
   }
 ]

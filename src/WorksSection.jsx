@@ -35,14 +35,21 @@ const WorksSection = () => {
               <div className="work-info">
                 <h3 className="work-title">{work.title}</h3>
                 <div className="work-thumb-wrap">
-                  <img
-                    src={work.thumbnail ? work.thumbnail : noImage}
-                    alt={work.title}
-                    className="work-thumb"
-                  />
+                  <Link to={`/works/${work.id}`}>
+                    <img
+                      src={work.youtubeId
+                        ? `https://img.youtube.com/vi/${work.youtubeId}/hqdefault.jpg`
+                        : work.thumbnail
+                        ? work.thumbnail
+                        : noImage}
+                      alt={work.title}
+                      className="work-thumb"
+                      style={{ cursor: "pointer" }}
+                    />
+                  </Link>
                 </div>
                 <div className="work-type">{work.type}</div>
-                <p className="work-description">{work.description}</p>
+                <p className="work-description">{work.descriptionShort || work.description}</p>
                 <Link
                   to={`/works/${work.id}`}
                   className="work-detail-link"
@@ -60,7 +67,7 @@ const WorksSection = () => {
             data-aos-delay="300"
           >
             <Link to="/works" className="andmore-link">
-              ANDMORE
+              他の作品はこちら
             </Link>
           </span>
         </div>

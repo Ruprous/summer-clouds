@@ -18,7 +18,6 @@ const WorkDetail = () => {
         <div>{work.type}</div>
         <div>{work.date}</div>
         <p>{work.description}</p>
-        <a href={work.url} target="_blank" rel="noopener noreferrer">外部リンク</a>
       </div>
       <Footer />
     </>

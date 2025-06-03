@@ -29,6 +29,8 @@
   gap: 32px;
   justify-content: center;
   padding: 0;
+  padding-bottom: 3rem; /* フッターと重ならないよう下に余白を追加 */
+  margin-bottom: 3rem; /* フッターと作品リストの一番下の作品が重ならないように追加 */
 }
 
 .work-card {
@@ -57,16 +59,16 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto 14px auto;
+  background: #222;
 }
 
 .work-thumb {
   width: 100%;
   height: 100%;
-  min-width: 100%;
-  min-height: 100%;
   object-fit: cover;
-  background: #222;
+  aspect-ratio: 4 / 3;
   display: block;
+  background: #222;
 }
 
 .work-info {
@@ -177,6 +179,86 @@
   width: 80%;
 }
 
+/* 並び順・絞り込み・リセットボタン用のスタイル */
+.works-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0 24px 0;
+  background: transparent;
+  border-radius: 12px;
+  padding: 12px 20px;
+  box-shadow: 0 2px 12px rgba(20,106,245,0.10);
+}
+.works-filter-bar label {
+  color: #fff;
+  font-size: 1.08em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-right: 8px;
+}
+.works-filter-bar select {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #7ac7ff;
+  border-radius: 6px;
+  padding: 4px 16px 4px 8px;
+  font-size: 1em;
+  margin-left: 6px;
+  margin-right: 12px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 1px 6px rgba(20,106,245,0.10);
+}
+.works-filter-bar select:focus {
+  border: 1.5px solid #fff;
+  box-shadow: 0 0 0 2px #7ac7ff44;
+  background: #fff;
+  color: #213547;
+}
+.works-filter-bar option {
+  background: #fff;
+  color: #213547;
+}
+.works-filter-bar button,
+.works-filter-bar button.inactive {
+  border: 1px solid #fff !important; /* 強制的に1pxに */
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #7ac7ff 0%, #fff 100%);
+  color: #213547;
+  border-radius: 6px;
+  padding: 6px 18px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(20,106,245,0.10);
+  transition: background 0.2s, color 0.2s, transform 0.15s, border 0.2s;
+  margin-left: 8px;
+}
+.works-filter-bar button.inactive {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: default;
+  opacity: 1;
+  box-shadow: none;
+}
+.works-filter-bar button.inactive:hover,
+.works-filter-bar button.inactive:focus {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  transform: none;
+}
+.works-filter-bar button.active:hover,
+.works-filter-bar button.active:focus {
+  background: linear-gradient(90deg, #fff 0%, #7ac7ff 100%);
+  color: #1a1a1a;
+  transform: scale(1.07);
+}
+
 /* 画面幅に応じて列数を調整 */
 @media (max-width: 1600px) {
   .work-info { width: 340px; }
@@ -201,3 +283,10 @@
     box-sizing: border-box;
   }
 }
+
+.works-section, .works-box, .works-list, .work-card, .work-info, .work-thumb-wrap, .work-thumb {
+  position: relative;
+  z-index: 2;
+}
+
+/* 雲レイヤーのz-indexは-2以下で固定すること（CloudLayers.jsx側でzIndex: -2を推奨） */
