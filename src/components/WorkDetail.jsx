@@ -18,6 +18,16 @@ const WorkDetail = () => {
         <div>{work.type}</div>
         <div>{work.date}</div>
         <p>{work.description}</p>
+        {work.credit && work.credit.length > 0 && (
+          <div className="work-credit">
+            <h3>Credit</h3>
+            <ul>
+              {work.credit.map((c, i) => (
+                <li key={i}>{c}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
       <Footer />
     </>

@@ -1,7 +1,7 @@
 [
   {
     "id": "rp-folderwatcher",
-    "title": "RP-FolderWatcher",
+    "title": "RP-FolderWatcher / PPro Extension",
     "thumbnail": "",
     "type": "AdobePlugin",
     "date": "2025-06",
@@ -11,7 +11,7 @@
   },
   {
     "id": "circular-arrange",
-    "title": "Circular-Arrange",
+    "title": "Circular-Arrange / Blender Addon",
     "thumbnail": "https://raw.githubusercontent.com/Ruprous/Circular-Arrange/refs/heads/main/images/sampleimage01.png",
     "type": "BlenderAddon",
     "date": "2025-05",
@@ -30,92 +30,48 @@
     "url": "https://www.foriio.com/works/556908"
   },
   {
-    "id": "dummy-1",
-    "title": "ダミー作品1",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "2024-01",
-    "descriptionShort": "ダミー作品1の短い説明。",
-    "description": "これはダミー作品1の説明です。",
-    "url": "https://example.com/dummy1"
-  },
-  {
-    "id": "dummy-2",
-    "title": "ダミー作品2",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "2024-02",
-    "descriptionShort": "ダミー作品2の短い説明。",
-    "description": "これはダミー作品2の説明です。説明文が少し長めになっています。サンプルとして、複数行にまたがる説明文をここに記載しています。UIの見た目やレイアウトのテストにも使えます。",
-    "url": "https://example.com/dummy2"
-  },
-  {
-    "id": "dummy-3",
-    "title": "ダミー作品3",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "2024-03",
-    "descriptionShort": "ダミー作品3の短い説明。",
-    "description": "短い説明。",
-    "url": "https://example.com/dummy3"
-  },
-  {
-    "id": "dummy-4",
-    "title": "ダミー作品4",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "2024-04",
-    "descriptionShort": "ダミー作品4の短い説明。",
-    "description": "これはダミー作品4の説明です。やや長めの説明文で、テスト用にいくつかの文章を追加しています。これにより、カードの高さやレイアウトの違いを確認できます。",
-    "url": "https://example.com/dummy4"
-  },
-  {
-    "id": "dummy-5",
-    "title": "ダミー作品5",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "2024-05",
-    "descriptionShort": "ダミー作品5の短い説明。",
-    "description": "ダミー作品5。とても短い。",
-    "url": "https://example.com/dummy5"
-  },
-  {
-    "id": "dummy-6",
-    "title": "ダミー作品6",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "2024-06",
-    "descriptionShort": "ダミー作品6の短い説明。",
-    "description": "これはダミー作品6の説明です。さらに別のサンプルとして、ここに説明文を追加しています。",
-    "url": "https://example.com/dummy6"
-  },
-  {
-    "id": "dummy-7",
-    "title": "ダミー作品7",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "",
-    "descriptionShort": "ダミー作品7の短い説明。",
-    "description": "これはダミー作品7の説明です。日付データはありません。",
-    "url": "https://example.com/dummy7"
-  },
-  {
-    "id": "dummy-8",
-    "title": "ダミー作品8",
-    "thumbnail": "",
-    "type": "DummyType",
-    "date": "",
-    "descriptionShort": "ダミー作品8の短い説明。",
-    "description": "ダミー作品8の説明。こちらも日付なしのサンプルです。",
-    "url": "https://example.com/dummy8"
-  },
-  {
     "id": "popin2-mv",
-    "title": "ねぎりん・ちゃんあい・min / POP IN 2",
+    "title": "POP IN 2 (COVER) / MV",
     "type": "MusicVideo",
-    "description": "ねぎりん・ちゃんあい・minの3名によるカバー楽曲『POP IN 2』の\nミュージックビデオとYouTube用サムネイル画像を制作しました。",
+    "description": "ねぎりん・ちゃんあい・minの3名によるカバー楽曲『POP IN 2』の\nミュージックビデオ・サムネイル画像を制作。",
     "date": "2025-02",
     "youtubeId": "IHWtiTSIPPI",
-    "thumbnail": ""
+    "thumbnail": "",
+    "credit": [
+      "Vocal：ねぎりん・ちゃんあい・min",
+      "inst：Karafac",
+      "Illustration：ぱぴこ",
+      "Movie：Ruprous",
+      "Mix：NAOKI"
+    ]
+  },
+  {
+    "id": "u-mv",
+    "title": "U (COVER) / MV",
+    "type": "MusicVideo",
+    "description": "Zu2によるカバー楽曲『U』のミュージックビデオ・サムネイル画像を制作。",
+    "date": "2022-07",
+    "youtubeId": "skjmtZZy3rQ",
+    "thumbnail": "",
+    "credit": [
+      "Vocal：Zu2",
+      "Mix：shino116",
+      "Illustration：plin",
+      "Movie：Ruprous"
+    ]
+  },
+  {
+    "id": "wasurena-mv",
+    "title": "勿忘 (COVER) / MV",
+    "type": "MusicVideo",
+    "description": "Zu2と宮城玲によるカバー楽曲『勿忘』のミュージックビデオを制作。",
+    "date": "2023-01",
+    "youtubeId": "C-MiqbZsumI",
+    "thumbnail": "",
+    "credit": [
+      "Vocal：Zu2・宮城玲",
+      "Mixing：siru",
+      "Movie：Ruprous"
+    ]
   }
 ]
