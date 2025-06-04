@@ -46,8 +46,12 @@ const WorksList = () => {
   // ページ変更時にスクロールトップ
   const handlePageChange = (page) => {
     setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  // currentPageが変わった直後にスクロール
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
 
   // フィルタ・ソート変更時は1ページ目に戻す
   React.useEffect(() => {

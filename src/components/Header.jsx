@@ -22,10 +22,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-logo">
-        <a
-          href="https://x.com/Ruprous"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/"
           className="logo-link"
         >
           <img src={logo} alt="Logo" />
@@ -34,7 +32,7 @@ const Header = () => {
               <circle cx="27" cy="27" r="25" />
             </svg>
           </span>
-        </a>
+        </Link>
       </div>
       <nav className="header-nav">
         <ul>

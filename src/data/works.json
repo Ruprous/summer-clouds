@@ -4,7 +4,7 @@
     "title": "RP-FolderWatcher / PPro Extension",
     "thumbnail": "",
     "type": "AdobePlugin",
-    "date": "2025-06",
+    "date": "2025-05",
     "descriptionShort": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定フォルダを監視し自動インポート。",
     "description": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定したフォルダを監視し、ファイルを自動的にプロジェクトにインポートします。手動でのインポート作業を省略でき、作業効率が大幅に向上します。",
     "url": "https://github.com/Ruprous/RP-FolderWatcher"
@@ -38,7 +38,7 @@
     "youtubeId": "IHWtiTSIPPI",
     "thumbnail": "",
     "credit": [
-      "Vocal：ねぎりん・ちゃんあい・min",
+      "Vocal：ねぎりん, ちゃんあい, min",
       "inst：Karafac",
       "Illustration：ぱぴこ",
       "Movie：Ruprous",
@@ -69,9 +69,137 @@
     "youtubeId": "C-MiqbZsumI",
     "thumbnail": "",
     "credit": [
-      "Vocal：Zu2・宮城玲",
+      "Vocal：Zu2, 宮城玲",
       "Mixing：siru",
       "Movie：Ruprous"
     ]
+  },
+  {
+    "id": "bo6-montage1",
+    "title": "CoD:BO6 - Montage #1 | Ruprous",
+    "type": "GameplayEdit",
+    "description": "Call of Duty: BO6 のプレイ映像を使用したモンタージュ動画を制作しました。",
+    "date": "2025-02",
+    "youtubeId": "cQwNocG3ijI",
+    "thumbnail": "",
+    "credit": [
+      "Editing：Ruprous",
+      "Direction：Ruprous",
+      "Player：Ruprous"
+    ]
+  },
+  {
+    "id": "oudon-offline",
+    "title": "おうどん 配信オフライン画像",
+    "type": "GraphicDesign",
+    "description": "Valorantを配信されているおうどんさんの配信用オフライン画像を制作。",
+    "date": "2024-04",
+    "thumbnail": "/summer-clouds/images/works/oudon-offline.jpg",
+    "credit": []
+  },
+  {
+    "id": "chai-premiere-memory",
+    "title": "ちゃんあい 初Premiere思い出",
+    "type": "GameplayEdit",
+    "date": "2025-05",
+    "youtubeId": "ru1iWyT7Vi0",
+    "thumbnail": "",
+    "description": "ちゃんあいさんのValorantPremiere思い出動画を制作しました。",
+    "credit": [
+      "Player：ちゃんあい, えびちゃ, ざいむ, ポテチウェイ, カイエン",
+      "Assistant：MIN, 結月りく",
+      "Direction：Ruprous",
+      "Editting：Ruprous"
+    ]
+  },
+  {
+    "id": "charichan-first-stream",
+    "title": "ちゃりちゃん 初配信 サムネイル",
+    "type": "GraphicDesign",
+    "date": "2025-01",
+    "descriptionShort": "新たにVtuberとしてデビューされたちゃりちゃんさんの初配信サムネイルを制作しました。",
+    "description": "新たにVtuberとしてデビューされたちゃりちゃんさんの初配信サムネイルを制作しました。周りの装飾にはヘアピンやリボンを用い、世界観を重視したサムネイルになりました。配信開始までVtuber部分は黒塗りの画像が差し替えられており、それまではサムネイルの小物からどんな姿かを想像しようとファンの方々が議論していました。",
+    "thumbnail": "/summer-clouds/images/works/charichan-first-stream.jpg",
+    "credit": []
+  },
+  {
+    "id": "logo-aotakeshizuna",
+    "title": "青竹静那 ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2022-10",
+    "descriptionShort": "Vtuber:青竹雫那さんのロゴを制作しました。",
+    "description": "Vtuber:青竹雫那さんのロゴを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-aotakeshizuna.jpg",
+    "credit": []
+  },
+  {
+    "id": "logo-natukishiro",
+    "title": "夏月しろ ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2021-10",
+    "descriptionShort": "Vtuber:夏月しろさんのロゴを制作しました。",
+    "description": "Vtuber:夏月しろさんのロゴを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-natukishiro.jpg",
+    "credit": []
+  },
+  {
+    "id": "logo-miyagirei",
+    "title": "宮城玲 ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2023-10",
+    "descriptionShort": "Vtuber:宮城玲さんのロゴを新調しました。",
+    "description": "Vtuber:宮城玲さんのロゴを新調しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-miyagirei.jpg",
+    "credit": []
+  },
+  {
+    "id": "logo-valokitunekan",
+    "title": "ゔぁろ狐館 ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2023-10",
+    "descriptionShort": "菰狐きさらぎさん運営のValorantDiscord鯖「ゔぁろ狐館」のロゴを制作しました。",
+    "description": "菰狐きさらぎさん運営のValorantDiscord鯖「ゔぁろ狐館」のロゴを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-valokitunekan.jpg",
+    "credit": []
+  },
+  {
+    "id": "logo-gamejirou",
+    "title": "ガメ次郎 ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2024-12",
+    "descriptionShort": "Vtuber:ガメ次郎さんのロゴを新調しました。",
+    "description": "Vtuber:ガメ次郎さんのロゴを新調しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-gamejirou.png",
+    "credit": []
+  },
+  {
+    "id": "logo-bunta",
+    "title": "ぶんた ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2023-10",
+    "descriptionShort": "ぶんたさんのロゴを制作しました。",
+    "description": "ぶんたさんのロゴを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-bunta.jpg",
+    "credit": ["Draft:虚喰りうる"]
+  },
+  {
+    "id": "logo-yozakuraeru",
+    "title": "夜桜愛瑠 ロゴ制作",
+    "type": "LogoDesign",
+    "date": "2023-10",
+    "descriptionShort": "Vtuber:夜桜愛瑠さんのロゴを新調しました。",
+    "description": "Vtuber:夜桜愛瑠さんのロゴを新調しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-yozakuraeru.jpg",
+    "credit": []
+  },
+  {
+    "id": "chanai-300subs",
+    "title": "ちゃんあい フォロワー300人記念配信\nサムネイル",
+    "type": "GraphicDesign",
+    "date": "2024-10",
+    "descriptionShort": "ちゃんあいさんのTwitchフォロワー300人記念耐久配信のサムネイルを制作しました。",
+    "description": "ちゃんあいさんのTwitchフォロワー300人記念耐久配信のサムネイルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/chanai-300subs.jpg",
+    "credit": []
   }
 ]

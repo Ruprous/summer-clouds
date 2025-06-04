@@ -26,7 +26,7 @@ const AboutSection = () => {
               <a href="https://x.com/PNZ_official" className="pnz-link" target="_blank" rel="noopener noreferrer">TEAM PNZ</a>に所属。
             </p>
             <p>
-              ラプラスです。読めない？いや、読むんですよ。YouTubeでも活動してまして、デザインや3DCGなどの動画を投稿したりゲームのLIVE配信をしております。
+              ラプラスです。読めない？いや、読むんですよ。
             </p>
           </div>
         </div>
