@@ -201,5 +201,25 @@
     "description": "ちゃんあいさんのTwitchフォロワー300人記念耐久配信のサムネイルを制作しました。",
     "thumbnail": "/summer-clouds/images/works/chanai-300subs.jpg",
     "credit": []
+  },
+  {
+    "id": "deltacamp",
+    "title": "DELTA CAMP",
+    "type": "Font",
+    "date": "2022-02",
+    "descriptionShort": "オリジナルフォント「DELTA CAMP」を制作しました。",
+    "description": "オリジナルフォント「DELTA CAMP」を制作しました。",
+    "thumbnail": "/summer-clouds/images/works/deltacamp.jpg",
+    "credit": []
+  },
+  {
+    "id": "yagurahai",
+    "title": "櫓杯 キービジュアル制作",
+    "type": "GraphicDesign",
+    "date": "2023-08",
+    "descriptionShort": "櫓杯のキービジュアルを制作しました。",
+    "description": "櫓杯のキービジュアルを制作しました。大会の雰囲気やテーマに合わせてデザインし、印象的なビジュアルに仕上げました。",
+    "thumbnail": "/summer-clouds/images/works/yagurahai.jpg",
+    "credit": []
   }
 ]
