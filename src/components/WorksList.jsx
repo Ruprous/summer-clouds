@@ -28,7 +28,6 @@ const WorksList = () => {
         : a.date.localeCompare(b.date);
     });
 
-  // ページネーション用
   const totalPages = Math.ceil(filteredWorks.length / ITEMS_PER_PAGE);
   const pagedWorks = filteredWorks.slice(
     (currentPage - 1) * ITEMS_PER_PAGE,
