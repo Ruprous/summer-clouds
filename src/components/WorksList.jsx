@@ -104,14 +104,14 @@ const WorksList = () => {
               <div className="work-card" key={work.id || i}>
                 <div className="work-info">
                   <h3 className="work-title">{work.title}</h3>
-                  <div className="work-thumb-wrap">
+                  <div className="work-thumb-wrap thumb-16x9">
                     <Link to={`/works/${work.id}`}>
                       <img
                         src={
-                          work.youtubeId
-                            ? `https://img.youtube.com/vi/${work.youtubeId}/hqdefault.jpg`
-                            : work.thumbnail
+                          work.thumbnail
                             ? work.thumbnail
+                            : work.youtubeId
+                            ? `https://img.youtube.com/vi/${work.youtubeId}/hqdefault.jpg`
                             : noImage
                         }
                         alt={work.title}

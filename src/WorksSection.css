@@ -91,6 +91,34 @@
   background: transparent;
 }
 
+.work-thumb-wrap.thumb-16x9 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: transparent; /* 無色に変更 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* 枠線やbox-shadowをリセット */
+  border: none;
+  box-shadow: none;
+}
+
+.work-thumb-wrap.thumb-16x9 .work-thumb {
+  width: 106%;
+  height: 106%;
+  object-fit: contain;
+  background: transparent;
+  display: block;
+  border: none;
+  box-shadow: none;
+  margin: 0 auto 0 -8px;
+  padding: 0;
+  max-width: 106%;
+  max-height: 106%;
+}
+
 .work-info {
   display: flex;
   flex-direction: column;
@@ -108,17 +136,43 @@
 }
 
 .work-info > * {
-  max-width: 380px;     /* サムネイル幅に合わせる */
+  max-width: 380px;
   word-break: break-word;
   text-align: center;
 }
 
-.work-info > *:not(:last-child) {
-  border-bottom: 1px solid #fff;
-  width: 100%;
+/* テキスト要素だけに余白と下線を適用 */
+.work-info h3,
+.work-info .work-type,
+.work-info p,
+.work-info .work-description,
+.work-info .work-detail-link,
+.work-info a {
   margin-bottom: 12px;
   padding-bottom: 12px;
+  border-bottom: 1px solid #fff;
+  padding-left: 8px;
+  padding-right: 8px;
   box-sizing: border-box;
+  width: 100%;
+}
+
+/* 最後のテキスト要素には下線・余白を付けない */
+.work-info h3:last-child,
+.work-info .work-type:last-child,
+.work-info p:last-child,
+.work-info .work-description:last-child,
+.work-info .work-detail-link:last-child,
+.work-info a:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* サムネイル画像には余白や下線を一切付けない */
+.work-thumb-wrap,
+.work-thumb-wrap.thumb-16x9 {
+  margin-bottom: 14px;
 }
 
 .work-info h3 {
@@ -340,6 +394,14 @@
     min-width: 0;
     max-width: 100%;
     box-sizing: border-box;
+  }
+  .andmore-anim-wrapper {
+    margin-top: 48px !important;
+  }
+}
+@media (min-width: 801px) {
+  .andmore-anim-wrapper {
+    margin-top: 64px !important;
   }
 }
 @media (max-width: 600px) {

@@ -4,30 +4,37 @@
     "title": "RP-FolderWatcher / PPro Extension",
     "thumbnail": "",
     "type": "AdobePlugin",
-    "date": "2025-05",
-    "descriptionShort": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定フォルダを監視し自動インポート。",
+    "date": "2025-04",
+    "descriptionShort": "Premiere Pro用のCEPエクステンション。指定フォルダを監視しファイルを自動インポートします。",
     "description": "Premiere Pro用の軽量なAdobe CEPエクステンション。指定したフォルダを監視し、ファイルを自動的にプロジェクトにインポートします。手動でのインポート作業を省略でき、作業効率が大幅に向上します。",
-    "url": "https://github.com/Ruprous/RP-FolderWatcher"
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/Ruprous/RP-FolderWatcher" }
+    ],
+    "credit": ["Tester：とりっぴ・アキラ, 宮城玲"]
   },
   {
     "id": "circular-arrange",
     "title": "Circular-Arrange / Blender Addon",
-    "thumbnail": "https://raw.githubusercontent.com/Ruprous/Circular-Arrange/refs/heads/main/images/sampleimage01.png",
+    "thumbnail": "",
     "type": "BlenderAddon",
-    "date": "2025-05",
+    "date": "2024-05",
     "descriptionShort": "選択オブジェクトを円形に自動配置するBlenderアドオン。",
     "description": "選択したオブジェクトを指定した数と半径の円の中に自動で配置するBlenderアドオンです。複雑な配置作業を簡単にし、効率的なモデリングをサポートします。",
-    "url": "https://github.com/Ruprous/Circular-Arrange"
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/Ruprous/Circular-Arrange" }
+    ]
   },
   {
     "id": "pnz-custom-v6",
     "title": "PNZ CUSTOM V6. CAME BACK",
     "thumbnail": "https://imgx.foriio.com/images/store/29934e0ac6c5f327e9a1febacdafe5e9.png?auto=compress&w=2184",
-    "type": "GraphicDesign",
-    "date": "",
+    "type": "Graphic",
+    "date": "2023-04",
     "descriptionShort": "PNZ主催イベントのメインビジュアル・メンバーリスト画像を制作。",
     "description": "PNZ主催・GauG協賛の「PNZ CUSTOM V6. CAME BACK 」のメインビジュアル画像およびメンバーリスト画像を制作しました。イベントの世界観を表現するために色彩やレイアウトにこだわりました。",
-    "url": "https://www.foriio.com/works/556908"
+    "links": [
+      { "label": "foriio", "url": "https://www.foriio.com/works/556908" }
+    ]
   },
   {
     "id": "popin2-mv",
@@ -43,7 +50,8 @@
       "Illustration：ぱぴこ",
       "Movie：Ruprous",
       "Mix：NAOKI"
-    ]
+    ],
+    "links": []
   },
   {
     "id": "u-mv",
@@ -58,7 +66,8 @@
       "Mix：shino116",
       "Illustration：plin",
       "Movie：Ruprous"
-    ]
+    ],
+    "links": []
   },
   {
     "id": "wasurena-mv",
@@ -72,7 +81,8 @@
       "Vocal：Zu2, 宮城玲",
       "Mixing：siru",
       "Movie：Ruprous"
-    ]
+    ],
+    "links": []
   },
   {
     "id": "bo6-montage1",
@@ -86,16 +96,18 @@
       "Editing：Ruprous",
       "Direction：Ruprous",
       "Player：Ruprous"
-    ]
+    ],
+    "links": []
   },
   {
     "id": "oudon-offline",
     "title": "おうどん 配信オフライン画像",
-    "type": "GraphicDesign",
+    "type": "Graphic",
     "description": "Valorantを配信されているおうどんさんの配信用オフライン画像を制作。",
     "date": "2024-04",
     "thumbnail": "/summer-clouds/images/works/oudon-offline.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "chai-premiere-memory",
@@ -103,104 +115,114 @@
     "type": "GameplayEdit",
     "date": "2025-05",
     "youtubeId": "ru1iWyT7Vi0",
-    "thumbnail": "",
+    "thumbnail": "/summer-clouds/images/works/chai-premiere-memory.png",
     "description": "ちゃんあいさんのValorantPremiere思い出動画を制作しました。",
     "credit": [
       "Player：ちゃんあい, えびちゃ, ざいむ, ポテチウェイ, カイエン",
       "Assistant：MIN, 結月りく",
       "Direction：Ruprous",
       "Editting：Ruprous"
-    ]
+    ],
+    "links": []
   },
   {
     "id": "charichan-first-stream",
     "title": "ちゃりちゃん 初配信 サムネイル",
-    "type": "GraphicDesign",
+    "type": "Graphic",
     "date": "2025-01",
     "descriptionShort": "新たにVtuberとしてデビューされたちゃりちゃんさんの初配信サムネイルを制作しました。",
     "description": "新たにVtuberとしてデビューされたちゃりちゃんさんの初配信サムネイルを制作しました。周りの装飾にはヘアピンやリボンを用い、世界観を重視したサムネイルになりました。配信開始までVtuber部分は黒塗りの画像が差し替えられており、それまではサムネイルの小物からどんな姿かを想像しようとファンの方々が議論していました。",
     "thumbnail": "/summer-clouds/images/works/charichan-first-stream.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "logo-aotakeshizuna",
     "title": "青竹静那 ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2022-10",
     "descriptionShort": "Vtuber:青竹雫那さんのロゴを制作しました。",
     "description": "Vtuber:青竹雫那さんのロゴを制作しました。",
     "thumbnail": "/summer-clouds/images/works/logo-aotakeshizuna.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "logo-natukishiro",
     "title": "夏月しろ ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2021-10",
     "descriptionShort": "Vtuber:夏月しろさんのロゴを制作しました。",
     "description": "Vtuber:夏月しろさんのロゴを制作しました。",
     "thumbnail": "/summer-clouds/images/works/logo-natukishiro.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "logo-miyagirei",
     "title": "宮城玲 ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2023-10",
     "descriptionShort": "Vtuber:宮城玲さんのロゴを新調しました。",
     "description": "Vtuber:宮城玲さんのロゴを新調しました。",
     "thumbnail": "/summer-clouds/images/works/logo-miyagirei.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "logo-valokitunekan",
     "title": "ゔぁろ狐館 ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2023-10",
     "descriptionShort": "菰狐きさらぎさん運営のValorantDiscord鯖「ゔぁろ狐館」のロゴを制作しました。",
     "description": "菰狐きさらぎさん運営のValorantDiscord鯖「ゔぁろ狐館」のロゴを制作しました。",
     "thumbnail": "/summer-clouds/images/works/logo-valokitunekan.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "logo-gamejirou",
     "title": "ガメ次郎 ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2024-12",
     "descriptionShort": "Vtuber:ガメ次郎さんのロゴを新調しました。",
     "description": "Vtuber:ガメ次郎さんのロゴを新調しました。",
     "thumbnail": "/summer-clouds/images/works/logo-gamejirou.png",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "logo-bunta",
     "title": "ぶんた ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2023-10",
     "descriptionShort": "ぶんたさんのロゴを制作しました。",
     "description": "ぶんたさんのロゴを制作しました。",
     "thumbnail": "/summer-clouds/images/works/logo-bunta.jpg",
-    "credit": ["Draft:虚喰りうる"]
+    "credit": ["Draft:虚喰りうる"],
+    "links": []
   },
   {
     "id": "logo-yozakuraeru",
     "title": "夜桜愛瑠 ロゴ制作",
-    "type": "LogoDesign",
+    "type": "Logo",
     "date": "2023-10",
     "descriptionShort": "Vtuber:夜桜愛瑠さんのロゴを新調しました。",
     "description": "Vtuber:夜桜愛瑠さんのロゴを新調しました。",
     "thumbnail": "/summer-clouds/images/works/logo-yozakuraeru.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "chanai-300subs",
     "title": "ちゃんあい フォロワー300人記念配信\nサムネイル",
-    "type": "GraphicDesign",
+    "type": "Graphic",
     "date": "2024-10",
     "descriptionShort": "ちゃんあいさんのTwitchフォロワー300人記念耐久配信のサムネイルを制作しました。",
     "description": "ちゃんあいさんのTwitchフォロワー300人記念耐久配信のサムネイルを制作しました。",
     "thumbnail": "/summer-clouds/images/works/chanai-300subs.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "deltacamp",
@@ -210,16 +232,100 @@
     "descriptionShort": "オリジナルフォント「DELTA CAMP」を制作しました。",
     "description": "オリジナルフォント「DELTA CAMP」を制作しました。",
     "thumbnail": "/summer-clouds/images/works/deltacamp.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
   },
   {
     "id": "yagurahai",
     "title": "櫓杯 キービジュアル制作",
-    "type": "GraphicDesign",
+    "type": "Graphic",
     "date": "2023-08",
-    "descriptionShort": "櫓杯のキービジュアルを制作しました。",
+    "descriptionShort": "宮城玲が主催するSplatoon3の「櫓杯」のキービジュアルを制作しました。",
     "description": "櫓杯のキービジュアルを制作しました。大会の雰囲気やテーマに合わせてデザインし、印象的なビジュアルに仕上げました。",
     "thumbnail": "/summer-clouds/images/works/yagurahai.jpg",
-    "credit": []
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "naturalclipcup",
+    "title": "NCC キービジュアル制作",
+    "type": "Graphic",
+    "date": "2022-05",
+    "descriptionShort": "NCC(NaturalClipCup)のキービジュアルを制作しました。",
+    "description": "NCC(NaturalClipCup)のキービジュアルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/NaturalClipCup.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "nemo-no-seijaku",
+    "title": "ネモの静寂 カバー制作",
+    "type": "Cover",
+    "date": "2025-05",
+    "descriptionShort": "短編小説、『ネモの静寂』のタイトルカバーを制作しました。",
+    "description": "短編小説、『ネモの静寂』のタイトルカバーを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/nemo-no-seijaku.jpg",
+    "credit": ["Author：五月雨望海"],
+    "links": [
+      { "title": "小説を読む（estar）", "url": "https://estar.jp/novels/26430493" }
+    ]
+  },
+  {
+    "id": "inkya-aimerz",
+    "title": "FA_Inkya aimerz+ / 加入画像 (FANART)",
+    "type": "Graphic",
+    "date": "2024-03",
+    "descriptionShort": "Inkyaさんの『aimerz+』の加入記念ファンアート画像を制作。",
+    "description": "Inkyaさんの『aimerz+』の加入記念ファンアート画像を制作しました。メンバーの雰囲気やチームカラーを意識してデザインしています。",
+    "thumbnail": "/summer-clouds/images/works/inkya-aimerz.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "rrcup",
+    "title": "RR CUP キービジュアル制作",
+    "type": "Graphic",
+    "date": "2024-08",
+    "descriptionShort": "宮城玲 × 凛々鈴 / RR CUP キービジュアルを制作しました。",
+    "description": "宮城玲 × 凛々鈴 / RR CUP キービジュアルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/RRcup.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "pnz-mc-nakama",
+    "title": "PNZ 仲間鯖 ロゴ制作",
+    "type": "Logo",
+    "date": "2023-09",
+    "descriptionShort": "PNZのマインクラフトサーバー企画のロゴを制作しました。",
+    "description": "PNZのマインクラフトサーバー企画のロゴを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/pnz-mc-nakama.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "pnz-valo-primus-kv",
+    "title": "PNZ Valorant Custom PRIMUS\n キービジュアル制作",
+    "type": "Graphic",
+    "date": "2022-11",
+    "descriptionShort": "PNZが主催・運営するPNZ Valorant Custom PRIMUSのキービジュアルを制作しました。",
+    "description": "PNZが主催・運営するPNZ Valorant Custom PRIMUSのキービジュアルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/pnz-valo-primus-kv.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "pnz-valo-gou-kv",
+    "title": "PNZ Valorant Custom -豪- \nキービジュアル制作",
+    "type": "Graphic",
+    "date": "2023-12",
+    "youtubeId": "k78G7mL1bsU",
+    "descriptionShort": "PNZが主催・運営するPNZ Valorant Custom -豪- のキービジュアルを制作しました。",
+    "description": "PNZが主催・運営するPNZ Valorant Custom -豪- のキービジュアルを制作しました。",
+    "thumbnail": "",
+    "credit": [],
+    "links": [
+      { "label": "YouTube", "url": "https://youtu.be/k78G7mL1bsU?si=puGfoTv1SR8LAtdj" }
+    ]
   }
 ]
