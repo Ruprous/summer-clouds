@@ -267,7 +267,7 @@
     "thumbnail": "/summer-clouds/images/works/nemo-no-seijaku.jpg",
     "credit": ["Author：五月雨望海"],
     "links": [
-      { "title": "小説を読む（estar）", "url": "https://estar.jp/novels/26430493" }
+      { "label": "小説を読む（エブリスタ）", "url": "https://estar.jp/novels/26430493" }
     ]
   },
   {
@@ -324,8 +324,17 @@
     "description": "PNZが主催・運営するPNZ Valorant Custom -豪- のキービジュアルを制作しました。",
     "thumbnail": "",
     "credit": [],
-    "links": [
-      { "label": "YouTube", "url": "https://youtu.be/k78G7mL1bsU?si=puGfoTv1SR8LAtdj" }
-    ]
+    "links": []
+  },
+  {
+    "id": "riskydice-algs-cc",
+    "title": "RISKYDICE ALGS CC 出場画像制作",
+    "type": "Graphic",
+    "date": "2024-06",
+    "descriptionShort": "ALGS CHALLENGER CIRCUITに出場したRISKYDICEの参加画像を制作しました。",
+    "description": "ALGS CHALLENGER CIRCUITに出場したRISKYDICEの参加画像を制作しました。",
+    "thumbnail": "/summer-clouds/images/works/riskydice-algs-cc.jpg",
+    "credit": [],
+    "links": []
   }
 ]

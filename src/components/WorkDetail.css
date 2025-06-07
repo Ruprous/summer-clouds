@@ -1,0 +1,198 @@
+.work-detail {
+  max-width: 700px;
+  margin: 40px auto 60px auto;
+  padding: 32px 20px 40px 20px;
+  background: rgba(0,0,0,0.10);
+  border: 1.5px solid #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+  position: relative;
+}
+
+.work-detail h2 {
+  font-size: 2.1rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.work-media {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16/9;
+  margin: 0 auto 22px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+  position: relative;
+  left: -2px;
+  background: #222;
+}
+
+.work-media-img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.work-media-youtube iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #222;
+}
+
+.work-meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-size: 1.08rem;
+  color: #3a4a6b;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-type {
+  color: #7ac7ff;
+  font-size: 0.98em;
+  margin-bottom: 8px;
+  text-align: center;
+  background: transparent;
+  border-radius: 0;
+  font-weight: 600;
+  padding: 2px 10px;
+}
+
+.work-detail-type {
+  font-weight: 700;
+  background: linear-gradient(90deg, #eaf3ff 60%, #cbe7ff 100%);
+  border-radius: 999px;
+  padding: 4px 16px;
+  color: #2176c1;
+  font-size: 1.08rem;
+  margin-right: 12px;
+  display: inline-block;
+  box-shadow: 0 2px 8px 0 rgba(122,199,255,0.10);
+  border: 1px solid #b6d8f7;
+  letter-spacing: 0.02em;
+}
+
+.work-date {
+  color: #2176c1;
+  background: linear-gradient(90deg, #eaf3ff 60%, #cbe7ff 100%);
+  font-size: 1.08rem;
+  padding: 4px 16px;
+  border-radius: 999px;
+  margin-right: 12px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px 0 rgba(122,199,255,0.10);
+  border: 1px solid #b6d8f7;
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.work-description {
+  margin-bottom: 18px;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.work-credit, .work-links {
+  margin-top: 28px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e6f0;
+}
+
+.work-credit h3, .work-links h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.work-credit ul, .work-links ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.work-credit li, .work-links li {
+  margin-bottom: 4px;
+  font-size: 0.98rem;
+  list-style: none;
+}
+
+.work-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  padding-left: 0;
+  justify-content: center;
+}
+.work-links li {
+  list-style: none;
+  margin-bottom: 0;
+}
+.work-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(90deg, #eaf3ff 60%, #cbe7ff 100%);
+  color: #2176c1;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 6px 18px;
+  border: 1px solid #b6d8f7;
+  box-shadow: 0 2px 8px 0 rgba(122,199,255,0.10);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  font-size: 1.01rem;
+}
+.work-links a:hover {
+  background: linear-gradient(90deg, #7ac7ff 60%, #3a4a6b 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(58,74,107,0.18);
+  text-decoration: none;
+}
+
+/* リンク先頭にYouTubeアイコンなどを表示する場合はJSX側で対応 */
+
+@media (max-width: 600px) {
+  .work-detail {
+    padding: 16px 2vw 28px 2vw;
+    max-width: 98vw;
+  }
+  .work-detail h2 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+  }
+  .work-media {
+    max-width: 100vw;
+    min-width: 0;
+    margin-bottom: 14px;
+  }
+  .work-meta {
+    font-size: 0.98rem;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  .work-description {
+    font-size: 0.98rem;
+    margin-bottom: 12px;
+  }
+  .work-detail-type {
+    font-size: 0.98rem;
+    padding: 3px 10px;
+    margin-right: 6px;
+  }
+  .work-date {
+    font-size: 0.98rem;
+    padding: 3px 10px;
+    margin-right: 6px;
+  }
+  .work-links ul {
+    gap: 6px 8px;
+  }
+  .work-links a {
+    font-size: 0.97rem;
+    padding: 5px 10px;
+  }
+}

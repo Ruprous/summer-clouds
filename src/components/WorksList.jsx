@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import works from "../data/works.json";
 import noImage from "../images/works/noimage.jpg";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import CloudLayers from "../CloudLayers";
@@ -11,10 +11,45 @@ import "../WorksSection.css";
 const allTypes = Array.from(new Set(works.map((w) => w.type).filter(Boolean)));
 const ITEMS_PER_PAGE = 12;
 
+function getPageFromQuery(search) {
+  const params = new URLSearchParams(search);
+  const page = parseInt(params.get("page"), 10);
+  return isNaN(page) || page < 1 ? 1 : page;
+}
+
+function getQueryValue(search, key, fallback) {
+  const params = new URLSearchParams(search);
+  const value = params.get(key);
+  return value !== null ? value : fallback;
+}
+
 const WorksList = () => {
-  const [sortOrder, setSortOrder] = useState("desc"); // desc:新しい順, asc:古い順
-  const [typeFilter, setTypeFilter] = useState("");
-  const [currentPage, setCurrentPage] = useState(1); // ページ番号（1始まり）
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // URLクエリから状態を取得
+  const sortOrder = getQueryValue(location.search, "sort", "desc");
+  const typeFilter = getQueryValue(location.search, "type", "");
+  const currentPage = parseInt(getQueryValue(location.search, "page", "1"), 10) || 1;
+
+  // クエリ変更時に状態をURLに反映
+  const setQuery = (paramsObj) => {
+    const params = new URLSearchParams(location.search);
+    Object.entries(paramsObj).forEach(([k, v]) => {
+      if (v === "" || v == null) {
+        params.delete(k);
+      } else {
+        params.set(k, v);
+      }
+    });
+    navigate({ search: params.toString() }, { replace: false });
+  };
+
+  // 並び替え・フィルタ変更時
+  const handleSortChange = (e) => setQuery({ sort: e.target.value, page: 1 });
+  const handleTypeChange = (e) => setQuery({ type: e.target.value, page: 1 });
+  const handleReset = () => setQuery({ type: "", page: 1 });
+  const handlePageChange = (page) => setQuery({ page });
 
   // フィルタ・ソート適用
   const filteredWorks = works
@@ -42,20 +77,10 @@ const WorksList = () => {
     return [currentPage - 2, currentPage - 1, currentPage, currentPage + 1, currentPage + 2];
   };
 
-  // ページ変更時にスクロールトップ
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
-  };
-
   // currentPageが変わった直後にスクロール
   React.useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [currentPage]);
-
-  // フィルタ・ソート変更時は1ページ目に戻す
-  React.useEffect(() => {
-    setCurrentPage(1);
-  }, [sortOrder, typeFilter]);
 
   return (
     <>
@@ -70,7 +95,7 @@ const WorksList = () => {
               SORTING：
               <select
                 value={sortOrder}
-                onChange={(e) => setSortOrder(e.target.value)}
+                onChange={handleSortChange}
               >
                 <option value="desc">NEWER</option>
                 <option value="asc">OLDER</option>
@@ -80,7 +105,7 @@ const WorksList = () => {
               SELECT TYPE：
               <select
                 value={typeFilter}
-                onChange={(e) => setTypeFilter(e.target.value)}
+                onChange={handleTypeChange}
               >
                 <option value="">ALL</option>
                 {allTypes.map((type) => (
@@ -91,7 +116,7 @@ const WorksList = () => {
               </select>
             </label>
             <button
-              onClick={() => setTypeFilter("")}
+              onClick={handleReset}
               className={typeFilter ? "active" : "inactive"}
               tabIndex={typeFilter ? 0 : -1}
               disabled={!typeFilter}
@@ -105,7 +130,7 @@ const WorksList = () => {
                 <div className="work-info">
                   <h3 className="work-title">{work.title}</h3>
                   <div className="work-thumb-wrap thumb-16x9">
-                    <Link to={`/works/${work.id}`}>
+                    <Link to={`/works/${work.id}?page=${currentPage}&sort=${sortOrder}&type=${typeFilter}`}>
                       <img
                         src={
                           work.thumbnail
@@ -122,17 +147,17 @@ const WorksList = () => {
                   <div
                     className="work-type"
                     style={{ cursor: "pointer", textDecoration: "underline" }}
-                    onClick={() => setTypeFilter(work.type)}
+                    onClick={() => setQuery({ type: work.type, page: 1 })}
                     tabIndex={0}
                     onKeyDown={e => {
-                      if (e.key === "Enter" || e.key === " ") setTypeFilter(work.type);
+                      if (e.key === "Enter" || e.key === " ") setQuery({ type: work.type, page: 1 });
                     }}
                     aria-label={`タイプで絞り込み: ${work.type}`}
                   >
                     {work.type}
                   </div>
                   <p className="work-description">{work.descriptionShort || work.description}</p>
-                  <Link to={`/works/${work.id}`} className="work-detail-link">
+                  <Link to={`/works/${work.id}?page=${currentPage}&sort=${sortOrder}&type=${typeFilter}`} className="work-detail-link">
                     詳細
                   </Link>
                 </div>
