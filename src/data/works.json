@@ -10,7 +10,8 @@
     "links": [
       { "label": "GitHub", "url": "https://github.com/Ruprous/RP-FolderWatcher" }
     ],
-    "credit": ["Tester：とりっぴ・アキラ, 宮城玲"]
+    "credit": ["Development：Ruprous",
+                "Tester：とりっぴ・アキラ, 宮城玲"]
   },
   {
     "id": "circular-arrange",
@@ -93,9 +94,7 @@
     "youtubeId": "cQwNocG3ijI",
     "thumbnail": "",
     "credit": [
-      "Editing：Ruprous",
-      "Direction：Ruprous",
-      "Player：Ruprous"
+      "Editing & Direction & Player：Ruprous"
     ],
     "links": []
   },
@@ -120,8 +119,7 @@
     "credit": [
       "Player：ちゃんあい, えびちゃ, ざいむ, ポテチウェイ, カイエン",
       "Assistant：MIN, 結月りく",
-      "Direction：Ruprous",
-      "Editting：Ruprous"
+      "Editting & Direction：Ruprous"
     ],
     "links": []
   },
@@ -185,8 +183,8 @@
     "title": "ガメ次郎 ロゴ制作",
     "type": "Logo",
     "date": "2024-12",
-    "descriptionShort": "Vtuber:ガメ次郎さんのロゴを新調しました。",
-    "description": "Vtuber:ガメ次郎さんのロゴを新調しました。",
+    "descriptionShort": "Vtuber:ガメ次郎さんのロゴを制作しました。",
+    "description": "Vtuber:ガメ次郎さんのロゴを制作しました。",
     "thumbnail": "/summer-clouds/images/works/logo-gamejirou.png",
     "credit": [],
     "links": []
@@ -207,8 +205,8 @@
     "title": "夜桜愛瑠 ロゴ制作",
     "type": "Logo",
     "date": "2023-10",
-    "descriptionShort": "Vtuber:夜桜愛瑠さんのロゴを新調しました。",
-    "description": "Vtuber:夜桜愛瑠さんのロゴを新調しました。",
+    "descriptionShort": "Vtuber:夜桜愛瑠さんのロゴを制作しました。",
+    "description": "Vtuber:夜桜愛瑠さんのロゴを制作しました。",
     "thumbnail": "/summer-clouds/images/works/logo-yozakuraeru.jpg",
     "credit": [],
     "links": []
@@ -272,14 +270,17 @@
   },
   {
     "id": "inkya-aimerz",
-    "title": "FA_Inkya aimerz+ / 加入画像 (FANART)",
+    "title": "inkya aimerz+ / 加入画像 (FANART)",
     "type": "Graphic",
     "date": "2024-03",
-    "descriptionShort": "Inkyaさんの『aimerz+』の加入記念ファンアート画像を制作。",
-    "description": "Inkyaさんの『aimerz+』の加入記念ファンアート画像を制作しました。メンバーの雰囲気やチームカラーを意識してデザインしています。",
+    "descriptionShort": "inkyaさんの『aimerz+』の加入記念ファンアート画像を制作。",
+    "description": "inkyaさんの『aimerz+』の加入記念ファンアート画像を制作しました。メンバーの雰囲気やチームカラーを意識してデザインしています。",
     "thumbnail": "/summer-clouds/images/works/inkya-aimerz.jpg",
     "credit": [],
-    "links": []
+    "links": [
+      { "label": "aimerz+（X）", "url": "https://x.com/aimerzhq" },
+      { "label": "inkya（X）", "url": "https://x.com/FA_inkya" }
+    ]
   },
   {
     "id": "rrcup",
@@ -321,10 +322,12 @@
     "date": "2023-12",
     "youtubeId": "k78G7mL1bsU",
     "descriptionShort": "PNZが主催・運営するPNZ Valorant Custom -豪- のキービジュアルを制作しました。",
-    "description": "PNZが主催・運営するPNZ Valorant Custom -豪- のキービジュアルを制作しました。",
+    "description": "2023/12/16に開催された、PNZ Valorant Custom -豪-のメインビジュアル・インゲームオーバーレイ・オープニング映像・配信内スライド等を制作しました。当日はOBSを操作してNDI Bridgeで送られてきた映像を切り替えるスイッチャーも行っていました。配信で使われたクリエイティブは、シーンスティンガー(NANAMY制作)以外すべて制作しました。",
     "thumbnail": "",
     "credit": [],
-    "links": []
+    "links": [
+      { "label": "配信技術構成（GitHub）", "url": "https://github.com/TEAMPNZ/PNZ-VALORANT-CUSTOM-GO" }
+    ]
   },
   {
     "id": "riskydice-algs-cc",
@@ -336,5 +339,49 @@
     "thumbnail": "/summer-clouds/images/works/riskydice-algs-cc.jpg",
     "credit": [],
     "links": []
+  },
+  {
+    "id": "works-miyagi-revius-01",
+    "title": "宮城玲 × RE:vius コラボTシャツ・ロンT告知画像",
+    "type": "Advertisement",
+    "date": "2024-02",
+    "descriptionShort": "2024/02/16 〜 03/01の期間限定で発売した、\"宮城玲 × RE:vius コラボTシャツ・ロンT\"の告知画像を制作しました。",
+    "description": "2024/02/16 〜 03/01の期間限定で発売した、\"宮城玲 × RE:vius コラボTシャツ・ロンT\"の告知画像を制作しました。",
+    "thumbnail": "/summer-clouds/images/works/works-miyagi-revius-01.jpg",
+    "credit": [],
+    "links": [
+      { "label": "商品ページ", "url": "https://stores.jp/search?q=%E5%AE%AE%E5%9F%8E%E7%8E%B2&store=revius" }
+    ]
+  },
+  {
+    "id": "summer-clouds-portfolio",
+    "title": "Portfolio Site \"Summer Clouds\"",
+    "type": "WebSite",
+    "date": "2025-06",
+    "descriptionShort": "夏の雲をテーマにしたWebポートフォリオをReact/Viteで構成・制作しました。",
+    "description": "ReactとViteを用いて構築した、夏の雲をテーマにしたポートフォリオサイトです。作品一覧・詳細ページやサムネイル画像の最適表示、ページネーション、URLクエリによる状態管理など、UI/UXや運用性にこだわって設計・実装しています。今後の拡張や作品追加も容易に行える構造です。",
+    "thumbnail": "/summer-clouds/images/works/noimage.jpg",
+    "credit": ["Design & Development：Ruprous"],
+    "links": [
+      { "label": "Webサイト(本サイト)", "url": "https://ruprous.github.io/summer-clouds/" }
+    ]
+  },
+  {
+    "id": "hitomaniac-miyagirei-short",
+    "title": "人マニア cover by 宮城玲 ShortVideo",
+    "type": "MusicVideo",
+    "date": "2023-11",
+    "descriptionShort": "宮城玲によるYouTubeShort用の人マニア(cover)の映像を制作しました。",
+    "description": "宮城玲によるYouTubeShort用の人マニア(cover)の映像を制作しました。",
+    "youtubeId": "oxg_dZ-XwB0",
+    "thumbnail": "",
+    "credit": [
+      "Vocal：宮城玲",
+      "Mix：ぶんた",
+      "Video：Ruprous"
+    ],
+    "links": [
+      { "label": "X（投稿元）", "url": "https://x.com/miyatanu2020/status/1720026736493199592" }
+    ]
   }
 ]

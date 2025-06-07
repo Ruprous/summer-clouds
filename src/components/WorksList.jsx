@@ -8,7 +8,7 @@ import CloudLayers from "../CloudLayers";
 import UtilityPoles from "../UtilityPoles";
 import "../WorksSection.css";
 
-const allTypes = Array.from(new Set(works.map((w) => w.type).filter(Boolean)));
+const allTypes = Array.from(new Set(works.map((w) => w.type).filter(Boolean))).sort();
 const ITEMS_PER_PAGE = 12;
 
 function getPageFromQuery(search) {
