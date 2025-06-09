@@ -231,7 +231,9 @@
     "description": "オリジナルフォント「DELTA CAMP」を制作しました。",
     "thumbnail": "/summer-clouds/images/works/deltacamp.jpg",
     "credit": [],
-    "links": []
+    "links": [
+      { "label": "配布ページ(BOOTH)", "url": "https://ruprous.booth.pm/items/5399361" }
+    ]
   },
   {
     "id": "yagurahai",
@@ -260,8 +262,8 @@
     "title": "ネモの静寂 カバー制作",
     "type": "Cover",
     "date": "2025-05",
-    "descriptionShort": "短編小説、『ネモの静寂』のタイトルカバーを制作しました。",
-    "description": "短編小説、『ネモの静寂』のタイトルカバーを制作しました。",
+    "descriptionShort": "短編小説『ネモの静寂』のタイトルカバーを制作しました。",
+    "description": "短編小説『ネモの静寂』のタイトルカバーを制作しました。",
     "thumbnail": "/summer-clouds/images/works/nemo-no-seijaku.jpg",
     "credit": ["Author：五月雨望海"],
     "links": [
@@ -383,5 +385,75 @@
     "links": [
       { "label": "X（投稿元）", "url": "https://x.com/miyatanu2020/status/1720026736493199592" }
     ]
+  },
+  {
+    "id": "logo-kazama",
+    "title": "鉄拳かざま ロゴ制作",
+    "type": "Logo",
+    "date": "2024-07",
+    "descriptionShort": "鉄拳かざまさんのロゴを制作しました。",
+    "description": "鉄拳かざまさんのロゴを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/logo-kazama.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "seikan-saredo-kodoku-zetsubou",
+    "title": "生還されど孤独と絶望 カバー制作",
+    "type": "Cover",
+    "date": "2022-05",
+    "descriptionShort": "小説『生還されど孤独と絶望』のタイトルカバーを制作しました。",
+    "description": "小説『生還されど孤独と絶望』のタイトルカバーを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/seikan-saredo.jpg",
+    "credit": ["Author：五月雨望海"],
+    "links": [
+      { "label": "小説を読む（エブリスタ）", "url": "https://estar.jp/novels/25970727" }
+    ]
+  },
+  {
+    "id": "sakuya-hanaha-kireini",
+    "title": "昨夜、花は綺麗に咲き誇る カバー制作",
+    "type": "Cover",
+    "date": "2021-05",
+    "descriptionShort": "小説『昨夜、花は綺麗に咲き誇る』のタイトルカバーを制作しました。",
+    "description": "小説『昨夜、花は綺麗に咲き誇る』のタイトルカバーを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/sakuya-hanaha-kireini.jpg",
+    "credit": ["Author：五月雨望海"],
+    "links": [
+      { "label": "小説を読む（エブリスタ）", "url": "https://estar.jp/novels/25828067" }
+    ]
+  },
+  {
+    "id": "pnz-apex-sankagata",
+    "title": "PNZ 参加型カスタム サムネイル制作",
+    "type": "Graphic",
+    "date": "2023-10",
+    "descriptionShort": "PNZが主催・運営したPNZ 参加型カスタムのサムネイルを制作しました。",
+    "description": "PNZが主催・運営したPNZ 参加型カスタムのサムネイルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/pnz-apex-sankagata.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "miyagi-shinishou",
+    "title": "宮城玲 新衣装お披露目会 サムネイル制作",
+    "type": "Graphic",
+    "date": "2023-10",
+    "descriptionShort": "宮城玲さんの新衣装お披露目配信のサムネイルを制作しました。",
+    "description": "宮城玲さんの新衣装お披露目配信のサムネイルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/miyagi-shinishou.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "kazama-stream",
+    "title": "鉄拳かざま ライブ配信 サムネイル制作",
+    "type": "Graphic",
+    "date": "2022-05",
+    "descriptionShort": "鉄拳かざまさんのライブ配信用サムネイルを制作しました。",
+    "description": "鉄拳かざまさんのライブ配信用サムネイルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/kazama-stream.jpg",
+    "credit": [],
+    "links": []
   }
 ]
