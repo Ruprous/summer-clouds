@@ -59,9 +59,9 @@
   line-clamp: 2;
   box-orient: vertical;
   text-overflow: ellipsis;
-  white-space: pre-line;
-  overflow-wrap: break-word;
-  word-break: keep-all;
+  white-space: normal; /* ← 単語区切りで改行しやすく */
+  overflow-wrap: break-word; /* 長い単語のみ強制改行 */
+  word-break: break-word; /* 単語途中での改行を最小限に */
   hyphens: auto;
 }
 

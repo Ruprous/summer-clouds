@@ -455,5 +455,49 @@
     "thumbnail": "/summer-clouds/images/works/kazama-stream.jpg",
     "credit": [],
     "links": []
+  },
+  {
+    "id": "nshiro-thumb-01",
+    "title": "夏月しろ EFT サムネイル制作 01",
+    "type": "Graphic",
+    "date": "2024-08",
+    "descriptionShort": "夏月しろさんのESCAPE FROM TARKOV配信サムネイルを制作しました。",
+    "description": "夏月しろさんのESCAPE FROM TARKOV配信サムネイルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/nshiro-thumb-01.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "nshiro-thumb-02",
+    "title": "夏月しろ EFT サムネイル制作 02",
+    "type": "Graphic",
+    "date": "2024-08",
+    "descriptionShort": "夏月しろさんのESCAPE FROM TARKOV配信サムネイルを制作しました。",
+    "description": "夏月しろさんのESCAPE FROM TARKOV配信サムネイルを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/nshiro-thumb-02.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "soraroku-flier-no-brandboys",
+    "title": "宙を走る六等星 No Brand Boys\nフライヤー制作",
+    "type": "Advertisement",
+    "date": "2024-09",
+    "descriptionShort": "宙を走る六等星の主催ライブ\"No Brand Boys\"フライヤーを制作しました。",
+    "description": "宙を走る六等星の主催ライブ\"No Brand Boys\"フライヤーを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/soraroku-flier-no-brandboys.jpg",
+    "credit": [],
+    "links": []
+  },
+  {
+    "id": "soraroku-flier-tanoshiku",
+    "title": "宙を走る六等星 熱くなったり楽しくなったり\n VOL4 フライヤー制作",
+    "type": "Advertisement",
+    "date": "2024-12",
+    "descriptionShort": "宙を走る六等星のライブ\"熱くなったり楽しくなったり VOL4\"のフライヤーを制作しました。",
+    "description": "宙を走る六等星のライブ\"熱くなったり楽しくなったり VOL4\"のフライヤーを制作しました。",
+    "thumbnail": "/summer-clouds/images/works/soraroku-flier-tanoshiku.jpg",
+    "credit": [],
+    "links": []
   }
 ]
