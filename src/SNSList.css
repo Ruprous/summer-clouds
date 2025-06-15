@@ -1,0 +1,144 @@
+.sns-list-section {
+  background: transparent;
+  color: #fff;
+  padding: 64px 16px 64px 16px;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 80px;
+  scroll-margin-top: 80px;
+}
+
+.sns-list-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-align: center;
+}
+
+.sns-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  max-width: 900px;
+}
+
+.sns-list-item {
+  background: rgba(0,0,0,0.10);
+  border: 1.5px solid #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(20,106,245,0.08);
+  padding: 28px 20px 18px 20px;
+  width: 320px;
+  max-width: 90vw;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  gap: 0.18em;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s, border 0.2s, background 0.2s;
+}
+.sns-list-item:hover {
+  box-shadow: 0 4px 24px rgba(20,106,245,0.08);
+  border: 1.5px solid #fff;
+  background: rgba(0,0,0,0.10);
+}
+.sns-list a {
+  color: #7ac7ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+  font-weight: bold;
+  font-size: 1.13em;
+}
+.sns-list a:hover {
+  color: #fff;
+}
+.sns-desc {
+  color: #fff;
+  font-size: 0.98em;
+  opacity: 0.82;
+  margin-left: 2px;
+  margin-top: 2px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.sns-team-title {
+  margin-top: 2.2em;
+  margin-bottom: 0.7em;
+  font-size: 1.18em;
+  color: #7ac7ff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.sns-team-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+.sns-team-pnz {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+.sns-team-pnz-logo {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  min-width: 84px;
+  margin-top: 8px;
+}
+.sns-team-pnz-logo img {
+  width: 84px !important;
+  height: 84px !important;
+  border-radius: 16px;
+  background: transparent;
+  filter: brightness(0) invert(1);
+  margin-bottom: 8px;
+}
+.sns-team-pnz-main {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.sns-team-pnz-title {
+  font-weight: bold;
+  font-size: 1.13em;
+  margin-bottom: 0.3em;
+  text-align: left;
+  width: 100%;
+}
+.sns-team-pnz-desc {
+  margin-bottom: 0.5em;
+  color: #fff;
+  opacity: 0.82;
+  font-size: 0.98em;
+  line-height: 1.6;
+  text-align: left;
+  width: 100%;
+}
+.sns-team-pnz-links {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  width: 100%;
+  justify-content: flex-start;
+}

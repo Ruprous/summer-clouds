@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./AboutSection.css";
 import profile from "./images/logo/profile.png";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   useEffect(() => {
@@ -29,6 +30,9 @@ const AboutSection = () => {
               ラプラスです。読めない？いや、読むんですよ。
             </p>
           </div>
+        </div>
+        <div className="sns-link-area">
+          <Link to="/sns" className="sns-list-link">SNSリストを見る</Link>
         </div>
       </div>
     </section>

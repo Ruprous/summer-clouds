@@ -61,6 +61,33 @@
   color: #ff3b3b;
 }
 
+.sns-list-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(90deg, #eaf3ff 60%, #cbe7ff 100%);
+  color: #2176c1;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 6px 18px;
+  border: 1px solid #b6d8f7;
+  box-shadow: 0 2px 8px 0 rgba(122,199,255,0.10);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  font-size: 1.01rem;
+  margin: 0 auto;
+}
+.sns-list-link:hover, .sns-list-link:focus {
+  background: linear-gradient(90deg, #7ac7ff 60%, #3a4a6b 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(58,74,107,0.18);
+  text-decoration: none;
+}
+.sns-link-area {
+  margin-top: 1.8em;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .about-content {
     flex-direction: column;

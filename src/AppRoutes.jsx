@@ -11,6 +11,7 @@ import CloudLayers from "./CloudLayers";
 import UtilityPoles from "./UtilityPoles";
 import WorkDetail from "./components/WorkDetail";
 import WorksList from "./components/WorksList";
+import SNSList from "./SNSList";
 
 const AppRoutes = () => {
   const location = useLocation();
@@ -32,6 +33,7 @@ const AppRoutes = () => {
         } />
         <Route path="/works/:id" element={<WorkDetail />} />
         <Route path="/works" element={<WorksList />} />
+        <Route path="/sns" element={<SNSList />} />
       </Routes>
     </>
   );
