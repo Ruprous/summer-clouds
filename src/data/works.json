@@ -524,7 +524,8 @@
     "descriptionShort": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せるMOD。",
     "description": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せる、サバイバル補助向けのシンプルなFabric MODです。建築や資材管理の幅が広がります。",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/Ruprous/RP-StoneCobbler" }
+      { "label": "GitHub", "url": "https://github.com/Ruprous/RP-StoneCobbler" },
+      { "label": "modrinth", "url": "https://modrinth.com/mod/rp-stonecobbler" }
     ]
   }
 ]
