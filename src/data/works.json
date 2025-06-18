@@ -522,10 +522,20 @@
     "type": "MinecraftMOD",
     "date": "2025-05",
     "descriptionShort": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せるMOD。",
-    "description": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せる、サバイバル補助向けのシンプルなFabric MODです。建築や資材管理の幅が広がります。",
+    "description": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せる、サバイバル補助向けのシンプルなFabric MODです。建築や資材管理の幅が広がります。GitHub/modrinthで公開中。",
     "links": [
       { "label": "GitHub", "url": "https://github.com/Ruprous/RP-StoneCobbler" },
       { "label": "modrinth", "url": "https://modrinth.com/mod/rp-stonecobbler" }
     ]
+  },
+  {
+    "id": "ruprous-ending-video",
+    "title": "Ruprous / 動画エンディング制作",
+    "thumbnail": "",
+    "type": "Video",
+    "date": "2025-03",
+    "descriptionShort": "YouTubeの最後に流すエンディング映像を制作しました。",
+    "description": "YouTubeの最後に流すエンディング映像を制作しました。",
+    "youtubeId": "Zwmfn0J7agc"
   }
 ]
