@@ -15,7 +15,7 @@
   },
   {
     "id": "circular-arrange",
-    "title": "Circular-Arrange / Blender Addon",
+    "title": "Circular-Arrange",
     "thumbnail": "",
     "type": "BlenderAddon",
     "date": "2024-05",
@@ -502,5 +502,29 @@
     "thumbnail": "/summer-clouds/images/works/soraroku-flier-tanoshiku.jpg",
     "credit": [],
     "links": []
+  },
+  {
+    "id": "duplicate-randomize",
+    "title": "Duplicate-Randomize",
+    "thumbnail": "",
+    "type": "BlenderAddon",
+    "date": "2024-06",
+    "descriptionShort": "オブジェクトを選択し数と範囲を指定して範囲内にランダムに配置できるアドオン。",
+    "description": "選択したオブジェクトを指定した数と範囲内にランダムに複製・配置できるBlenderアドオンです。モデリングやシーン作成時のランダム配置作業を効率化します。",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/Ruprous/Duplicate-Randomize" }
+    ]
+  },
+  {
+    "id": "rp-stonecobbler",
+    "title": "RP-StoneCobbler",
+    "thumbnail": "",
+    "type": "MinecraftMOD",
+    "date": "2025-05",
+    "descriptionShort": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せるMOD。",
+    "description": "石をストーンカッターで砕いて『石礫（Pebble）』にし、4つの石礫をクラフトすれば『丸石（Cobblestone）』に戻せる、サバイバル補助向けのシンプルなFabric MODです。建築や資材管理の幅が広がります。",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/Ruprous/RP-StoneCobbler" }
+    ]
   }
 ]
