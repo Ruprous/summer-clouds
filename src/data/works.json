@@ -537,5 +537,20 @@
     "descriptionShort": "YouTubeの最後に流すエンディング映像を制作しました。",
     "description": "YouTubeの最後に流すエンディング映像を制作しました。",
     "youtubeId": "Zwmfn0J7agc"
+  },
+  {
+    "id": "onta-hiitemita-bymyside",
+    "title": "By My Side (COVER) MV",
+    "type": "MusicVideo",
+    "date": "2025-06",
+    "descriptionShort": "おんたさんがベースカバーをした夜の本気ダンス「By My Side」のMVを制作。",
+    "description": "おんたさんがベースカバーをした夜の本気ダンスの「By My Side」のMVを制作しました。",
+    "youtubeId": "biKAGwriQy0",
+    "thumbnail": "",
+    "credit": [
+      "Bass(COVER)：おんた",
+      "Movie：Ruprous"
+    ],
+    "links": []
   }
 ]
